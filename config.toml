@@ -7,7 +7,7 @@ paginate     = 10
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+copyright = '<a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>'
 
 # googleAnalytics = ""
 
@@ -74,6 +74,9 @@ IsMultiLangual = false
 
 #    [params.fontAwesome]
 #        KitURL = "https://kit.fontawesome.com/KitID.js"
+
+    backgroundEffects = true
+    backgroundImage = "images/background_0.webp"
 
     [params.logo]
         logoMark     = ">"
