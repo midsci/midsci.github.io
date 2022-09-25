@@ -115,8 +115,8 @@ IsMultiLangual = false
         weight     = 30
     [[menu.main]]
         identifier = "cv"
-        name       = "Resume"
-        url        = "cv/"
+        name       = "Terminal"
+        url        = "https://cv-midsci.github.io/"
         weight     = 40
 #    [[menu.main]]
 #        identifier = "tools"
