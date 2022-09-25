@@ -1,3 +1,129 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl      = "https://midsci.github.io/"
+title        = "midsci-blog"
+languageCode = "ja"
+theme        = "hello-4s3ti"
+paginate     = 10
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+# googleAnalytics = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "docs"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+IsMultiLangual = false
+
+[permalinks]
+    posts = "/posts/:year/:month/:title/"
+
+[author]
+    name = "midsci"
+
+[blackfriday]
+    hrefTargetBlank = true
+
+[taxonomies]
+    tag      = "tags"
+    category = "categories"
+    series   = "series"
+
+
+
+[params]
+    dateform        = "Jan 2, 2006"
+    dateformShort   = "Jan 2"
+    dateformNum     = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04"
+
+    defaultTheme = "dark"
+
+    homeTitle = "midsci-blog"
+
+    # Subtitle for home
+    homeSubtitle = "データサイエンスで日常をハックする"
+
+    # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+
+    # Enable sharing buttons, if you like
+    enableSharingButtons = true
+
+    # Metadata mostly used in document's head
+    description = "midsci-blog は midsci の超個人的アーカイブです。機械学習のテーマを中心に有益な情報発信することを目指しております。"
+    keywords = "機械学習, 深層学習, データサイエンス, ブログ, ポートフォリオ, machine learning, deep learning, datascience, blog, portfolio"
+    images = [""]
+
+#    [params.fontAwesome]
+#        KitURL = "https://kit.fontawesome.com/KitID.js"
+
+    [params.logo]
+        logoMark     = ">"
+        logoText     = "$ cd /home/"
+        logoHomeLink = "/"
+
+    [params.footer]
+        trademark = true
+        rss = false
+        copyright = true
+        author = true
+
+        # Shows social icons on footer instead of main page
+        socialIcons = true
+
+        topText = []
+        bottomText = [
+#                "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+#                "Hello 4s3ti theme by <a href=\"https://github.com/4s3ti\">4s3ti</a>"
+        ]
+
+# And you can even create generic menu
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name       = "About"
+        url        = "about"
+        weight     = 10
+    [[menu.main]]
+        identifier = "posts"
+        name       = "Posts"
+        url        = "posts/"
+        weight     = 20
+    [[menu.main]]
+        identifier = "portfolio"
+        name       = "Portfolio"
+        url        = "portfolio/"
+        weight     = 30
+    [[menu.main]]
+        identifier = "cv"
+        name       = "Resume"
+        url        = "cv/"
+        weight     = 40
+#    [[menu.main]]
+#        identifier = "tools"
+#        name       = "Tools"
+#        url        = "#"
+#    [[menu.main]]
+#        identifier = "sometool"
+#        name       = "SomeTool"
+#        url        = "#"
+#        parent     = "tools"
