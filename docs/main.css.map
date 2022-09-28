@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/midsci/Desktop/blog/midsci.github.io",
+	"sourceRoot": "/Users/hdymacuser/Desktop/midsci.github.io",
 	"sources": [
 		"themes/hello-4s3ti/assets/scss/main.scss",
 		"themes/hello-4s3ti/assets/scss/_normalize.scss",
