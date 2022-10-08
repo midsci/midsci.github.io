@@ -8,7 +8,7 @@ PygmentsStyle = "monokai"
 
 copyright = '<a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>'
 
-# googleAnalytics = ""
+googleAnalytics = "G-Q46C1S890R"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
