@@ -1,25 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>untagged on midsci-blog</title>
-    <link>https://midsci.github.io/tags/untagged/</link>
-    <description>Recent content in untagged on midsci-blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <copyright>&lt;a href=&#34;https://opensource.org/licenses/MIT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT License&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 24 Sep 2022 23:42:53 +0900</lastBuildDate><atom:link href="https://midsci.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spotify Chart のスクレイピング</title>
-      <link>https://midsci.github.io/posts/2022/09/spotify-chart-%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/</link>
-      <pubDate>Sat, 24 Sep 2022 23:42:53 +0900</pubDate>
-      
-      <guid>https://midsci.github.io/posts/2022/09/spotify-chart-%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/</guid>
-      <description>はじめに 音楽といえば、最近では生活者のほとんどが、サブスクリプションサービスに加入し、音楽を聴いています。 筆者は所謂Z世代で、ガラケーからスマホへの、CDからサブスクへの遷移を実際に体感していました。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>untagged on midsci-blog</title><link>https://midsci.github.io/tags/untagged/</link><description>Recent content in untagged on midsci-blog</description><generator>Hugo -- gohugo.io</generator><language>ja</language><copyright>&lt;a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License&lt;/a></copyright><lastBuildDate>Sat, 24 Sep 2022 23:42:53 +0900</lastBuildDate><atom:link href="https://midsci.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml"/><item><title>Spotify Chart のスクレイピング</title><link>https://midsci.github.io/posts/2022/09/spotify-chart-%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/</link><pubDate>Sat, 24 Sep 2022 23:42:53 +0900</pubDate><guid>https://midsci.github.io/posts/2022/09/spotify-chart-%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/</guid><description>はじめに 音楽といえば、最近では生活者のほとんどが、サブスクリプションサービスに加入し、音楽を聴いています。 筆者は所謂Z世代で、ガラケーからスマホへの、CDからサブスクへの遷移を実際に体感していました。
 この記事でできること この記事では、2022年のいつからかログインが必要になった Spotify Charts をスクレイピングする方法を紹介します。
 Spotify Charts とは、Spotify が公開している、独自の週毎、各日毎のランキングのことで、５年前の2017年の1月1日〜現在までの期間のデータが取得可能です。
 Spotify Charts エリアについて Viral データ と　Region データ 今回の記事がカバーする範囲 手法 環境について Python を使ってスクレイピングを行います。 筆者の手元では Python==3.8 です。 また、ログイン認証は selenium という、Python でブラウザを操作するライブラリが必須となります。 selenium については、手元の Chrome とのバージョンの整合性がとれないとエラーを吐いちゃったりするので、気をつけてインストールしてください。 これについては例えばこちらの記事が参考になります。
-コード コード解説 スクレイピングの様子 まとめ これまでは、Spotify にログインせずとも、csv ファイルとして、過去五年間分の Spotify Chart データ（週単位、もしくは日単位でのSpotifyでの人気ランキング上位）を取得することが可能でした。 最近になって、</description>
-    </item>
-    
-  </channel>
-</rss>
+コード コード解説 スクレイピングの様子 まとめ これまでは、Spotify にログインせずとも、csv ファイルとして、過去五年間分の Spotify Chart データ（週単位、もしくは日単位でのSpotifyでの人気ランキング上位）を取得することが可能でした。 最近になって、</description></item></channel></rss>

@@ -2,7 +2,6 @@ baseurl      = "https://midsci.github.io/"
 title        = "midsci-blog"
 languageCode = "ja"
 theme        = "hello-4s3ti"
-paginate     = 10
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -54,7 +53,7 @@ IsMultiLangual = false
     dateformNum     = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04"
 
-    showPosts = true
+    showPosts = false
 
     defaultTheme = "light"
 
