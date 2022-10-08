@@ -56,7 +56,7 @@ IsMultiLangual = false
 
     showPosts = true
 
-    defaultTheme = "dark"
+    defaultTheme = "light"
 
     EnableThemeToggle = true
 
