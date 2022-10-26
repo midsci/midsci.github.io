@@ -6,6 +6,7 @@ featured = "pic03.jpg"
 featuredalt = "Pic 3"
 featuredpath = "date"
 linktitle = ""
+draft = true
 slug = "Debuter avec Hugo"
 title = "Débuter avec Hugo"
 type = "post"

@@ -6,6 +6,7 @@ featured = "pic02.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
+draft = true
 slug = "Introduction aux modeles Hugo"
 title = "Introduction aux modèles (Hu)go"
 type = ["posts","post"]

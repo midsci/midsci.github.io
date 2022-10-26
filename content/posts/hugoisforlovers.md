@@ -1,6 +1,7 @@
 +++
 title = "Getting Started with Hugo"
 description = ""
+draft = true
 type = ["posts","post"]
 tags = [
     "go",

@@ -6,6 +6,7 @@ featured = ""
 featuredalt = ""
 featuredpath = ""
 linktitle = ""
+draft = true
 slug = "Migrer vers Hugo depuis Jekyll"
 title = "Migrer vers Hugo depuis Jekyll"
 type = ["posts","post"]

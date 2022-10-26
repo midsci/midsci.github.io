@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>midsci-blog</title>
-    <link>https://midsci.github.io/</link>
-    <description>Recent content on midsci-blog</description>
+    <title>selenium on midsci-blog</title>
+    <link>https://midsci.github.io/tags/selenium/</link>
+    <description>Recent content in selenium on midsci-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>&lt;a href=&#34;https://opensource.org/licenses/MIT&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT License&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 24 Sep 2022 23:42:53 +0900</lastBuildDate><atom:link href="https://midsci.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 23:42:53 +0900</lastBuildDate><atom:link href="https://midsci.github.io/tags/selenium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spotify Chart のスクレイピング</title>
       <link>https://midsci.github.io/posts/2022/09/spotify-chart-%E3%81%AE%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/</link>
@@ -26,39 +26,6 @@ Spotify Charts Spotify Chart をご存じの方は読み飛ばしていただい
 手法 方法としては至ってシンプルです。 Google Chrome で 「Spotify Chart のサイトを開き、ログインをし、自動でランキングデータを取得する。」という流れを愚直に実装します。
 以下に必要なパッケージを示します。 不足している場合は適宜インストールしましょう。
 # パッケージのインポート import time import datetime from selenium import webdriver from selenium.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://midsci.github.io/about/</link>
-      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://midsci.github.io/about/</guid>
-      <description>運営者について
-はじめまして、本サイト運営者の midsci です。
-大学・大学院ではスパースモデリングであったり、統計的機械学習、MCMC法によるベイズ推論の研究を行っていました。
-現在は、広告会社でデータサイエンティストとして働いております。
-研究ではやってこなかった、社会の潮流を踏まえたデータ解析、かっこいい（と自分が思う）データビジュアライズを行いたい！という小さな野望を込めて、作りました。
-本サイトの記事が読者の皆さんの何かのお役に立つことを願っております。
-ご連絡先
-サイトの管理はmidsciが行っております。
-ご質問、ご要望、ご指摘、「こんなこと一緒にやってみたい！」などありましたら以下のTwitterにて気軽にお待ちしております。
-Twitter: @midsci_blog
-本サイトのソースコードについて
-また、本サイトは HUGO という、Go言語の静的サイトジェネレータで作成しております。
-記事の内容含めて、以下のリポジトリで公開しております。
-本サイトのリポジトリ
-もし読者の皆様自身が、何か情報発信したいとなった場合に、どうぞご参考になさってください。</description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://midsci.github.io/portfolio/</link>
-      <pubDate>Sat, 24 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://midsci.github.io/portfolio/</guid>
-      <description>工事中
-Under construction</description>
     </item>
     
   </channel>
